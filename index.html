@@ -109,7 +109,6 @@
             </div>
           </div>
         </section>
-
         <section class="reservation" id="reservation">
           <h2 class="reservation__title">Book a Table</h2>
           <form class="reservation__form form">
@@ -125,18 +124,22 @@
               <label for="number" class="form__label">
                 Number of guests *<input
                   placeholder="1-8"
-                  id="'number"
+                  id="number"
                   type="number"
                   class="form__input"
                 />
               </label>
               <label for="datetime" class="form__label">
-                Date & time *<input type="datetime-local" class="form__input" />
+                Date & time *<input
+                  id="datetime"
+                  type="datetime-local"
+                  class="form__input"
+                />
               </label>
               <label for="email" class="form__label">
                 Your email *<input
                   placeholder="email@email.com"
-                  id="datetime"
+                  id="email"
                   type="email"
                   class="form__input"
                 />
@@ -144,12 +147,11 @@
             </fieldset>
             <button class="form__button">Book a table</button>
             <label for="checkbox" class="form__label form__label_type_checkbox">
-              <input type="checkbox" class="form__checkbox" />
+              <input type="checkbox" id="checkbox" class="form__checkbox" />
               I agree with terms of use
             </label>
           </form>
         </section>
-
         <section class="menu" id="menu">
           <h2 class="menu__title">Menu</h2>
           <p class="menu__subtitle">
