@@ -14,3 +14,4 @@ This is the second project of the Software Engineering program at TripleTen. It 
 ## Plan on improving the project
 
 -implementing videos using iframe
+-implementing @keyframes
