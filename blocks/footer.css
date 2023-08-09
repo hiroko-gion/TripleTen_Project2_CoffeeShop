@@ -14,10 +14,13 @@
   height: 39px;
 }
 
+.footer__social {
+  margin-left: auto;
+}
+
 .footer__list {
   padding: 0;
   margin: 0;
-  margin-left: auto;
   list-style-type: none;
 }
 
