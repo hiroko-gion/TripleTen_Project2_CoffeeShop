@@ -24,6 +24,7 @@
 .form__label_type_checkbox {
   display: flex;
   justify-content: center;
+  margin-bottom: 0;
 }
 
 .form__input {
@@ -34,6 +35,14 @@
   margin-top: 8px;
   height: 60px;
   border-radius: 4px;
+  border: 1px solid #838383;
+  padding-left: 15px;
+}
+
+.form__input::placeholder {
+  font-size: 20px;
+  line-height: 30px;
+  color: #838383;
 }
 
 .form__button {
@@ -44,18 +53,9 @@
   margin-bottom: 32px;
   font-weight: 500;
   background-color: #2f80ed;
-  color: #ffffff;
+  color: #fff;
   border-radius: 4px;
-}
-
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-}
-
-input::placeholder {
-  font-size: 20px;
-  line-height: 30px;
-  color: #838383;
+  cursor: pointer;
 }
 
 .form__button:hover {

@@ -6,13 +6,13 @@
     opacity: 0.6;
   }
   100% {
-    transform: scale(1, 2);
+    transform: scale(1.2);
     opacity: 0;
   }
 }
 
 .about {
-  padding: 119px 80px 173px;
+  padding: 100px 80px 173px;
   background-color: #0a2850;
   display: flex;
   overflow: hidden;
@@ -22,7 +22,7 @@
 }
 
 .about__title {
-  color: #ffffff;
+  color: #fff;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
@@ -33,12 +33,13 @@
 }
 
 .about__content {
-  color: #ffffff;
-  font-family: "Noto Serif";
+  color: #fff;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
   max-width: 660px;
   position: relative;
+  margin-top: 19px;
 }
 
 .about__paragraph {
@@ -60,5 +61,5 @@
 }
 
 .about__circle_animation_blurred {
-  animation: pulse 1.3s ease-in-out infinite;
+  animation: pulsate 1.3s ease-in-out infinite;
 }

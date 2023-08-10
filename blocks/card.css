@@ -20,11 +20,11 @@
 
 .card__list-item {
   display: flex;
-  margin: 0 0 16px;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
 }
 
 .card__list-divider {
   border-bottom: 1px solid black;
   flex-grow: 1;
+  margin: 0 10px;
 }
