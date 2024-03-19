@@ -15,3 +15,6 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 -implementing videos using iframe
 -implementing @keyframes
+
+## Demonstrate the Website for the project##
+Link to see the project completed: [Coffee Shop](https://hiroko-gion.github.io/TripleTen_Project2_CoffeeShop/)
